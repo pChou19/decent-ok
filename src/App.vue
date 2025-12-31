@@ -374,6 +374,18 @@ onUnmounted(() => {
   border-radius: 1rem;
 }
 
+@media (max-width: 900px) {
+  .navbar ul {
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .navbar a {
+    font-size: 1rem;
+    padding: 0 0.4rem;
+  }
+}
+
 @media (max-width: 700px) {
   .section {
     padding: 1em;
