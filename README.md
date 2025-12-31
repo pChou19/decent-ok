@@ -1,14 +1,6 @@
-# decent-ok
+# decentokband.com
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
+[![Netlify Status](https://api.netlify.com/api/v1/badges/23da7bc2-e25f-4655-bcbb-47f4423a7aa4/deploy-status)](https://app.netlify.com/projects/capable-gingersnap-63fe84/deploys)
 
 ## Project Setup
 
