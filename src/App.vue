@@ -116,19 +116,20 @@ onUnmounted(() => {
     </section>
 
     <section id="shows" class="section">
-      <h2 class="heading">Upcoming Shows</h2>
-      <img src="@/assets/OceanCountyCover.jpg" alt="Poster for Milkboy show" class="section-img" />
+      <h2 class="heading">Upcoming Shows <span class="font-fallback">/</span> Events</h2>
+      <img src="@/assets/HolidayHangover.jpg" alt="Poster for Holidy Hangover show" class="section-img" />
       <ul class="shows-list">
         <li><span class="secondary">Aug 8, 2025</span> - <a
             href="https://www.tixr.com/groups/milkboy/events/nick-lombardo-the-decent-ok-lunison-pep-rally-142546"
             target="_blank">Milkboy</a></li>
-        <li><span class="secondary">Sep 5, 2025</span> - VINYL Philly</li>
-        <li><span class="secondary">Oct 10, 2025</span> - NEW SINGLE RELEASE: "OCEAN COUNTY" - AVAILABLE ON ALL PLATFORMS.</li>
-        <li><span class="secondary">Oct 23, 2025</span> - VINYL PHILLY *DUO*</li>
-        <li><span class="secondary">Nov 7, 2025</span> - Bogey's - Sewell, NJ *SOLO*</li>
-        <li><span class="secondary">Nov 15, 2025</span> - <a href="https://www.silkcityphilly.com/events/1639/nick-lombardo-and-the-decent-ok-two-rocks-rye-michael-james" target="_blank">SILK CITY ****FULL BAND **** TICKETS ON SALE NOW!</a></li>
-        <li><span class="secondary">Dec 5, 2025</span> - Bogey's - Sewell, NJ *SOLO*</li>
-        <li><span class="secondary">Dec 7, 2025</span> - Piccolo Trattoria - Doylestown *SOLO*</li>
+        <li><span class="secondary">Nov 14, 2025</span> - Vinyl FULL BAND</li>
+        <li><span class="secondary">Nov 15, 2025</span> - <a
+            href="https://www.silkcityphilly.com/events/1639/nick-lombardo-and-the-decent-ok-two-rocks-rye-michael-james"
+            target="_blank">SILK CITY ****FULL BAND **** TICKETS ON SALE NOW!</a></li>
+        <li><span class="secondary">Dec. 21, 2025 </span> - <a href="https://www.youtube.com/watch?v=PpH2jrru4OE" target="_blank" rel="noopener">SOUTH DAKOTA MUSIC VIDEO RELEASE</a></li>
+        <li><span class="secondary">Jan. 17, 2026 </span> - 12 STEPS DOWN - Holiday Hangover Party</li>
+        <li><span class="secondary">Feb. 20, 2026 </span> - Ruba Club - Philadelphia *FULL BAND*</li>
+        <li><span class="secondary">Bogey's</span> - Sewell, NJ *SOLO* (1/10, 2/28, 3/20, 4/18, 5/15) 6-9 PM</li>
       </ul>
       <img src="@/assets/DECENT_OK_Silk_city.jpg" alt="Poster for Milkboy show" class="section-img" />
       <img src="@/assets/milkboy.jpg" alt="Poster for Milkboy show" class="section-img" />
@@ -143,7 +144,10 @@ onUnmounted(() => {
 
     <section id="discography" class="section">
       <h2 class="heading">Discography</h2>
+      <img src="@/assets/OceanCountyCover.jpg" alt="Ocean County Cover Art" class="section-img" />
       <ul class="discography-list">
+        <li><a href="https://open.spotify.com/album/5pbBGi9W69oUfFU3hlHPz2?si=M5_ShEQrSiucqvhMTlKMVQ" target="_blank"
+            rel="noopener"><b>Ocean County</b> (Single) - <span class="secondary">2025</span></a></li>
         <li><a href="https://open.spotify.com/album/1oSTfBrPoashMFzwiZv2jZ?si=5a2b7805fd664c6e" target="_blank"
             rel="noopener"><b>Live Animal</b> (Album) - <span class="secondary">2025</span></a></li>
         <li><a href="https://open.spotify.com/album/2ylj7H0AQYYEDAMBiTYzT2?si=p4xcKfD5TPCMuX-EzNbYgw" target="_blank"
@@ -172,7 +176,12 @@ onUnmounted(() => {
 
     <section id="merch" class="section">
       <h2 class="heading">Merch</h2>
-      <p>Venmo: @decentokband </p>
+      <ul class="discography-list">
+        <li> Shirts (Black / Off White) S, M, L, XL</li>
+        <li> Stickers</li>
+      </ul>
+      <br>
+      <p>Venmo: <a href="https://account.venmo.com/u/decentokband" target="_blank" rel="noopener">@decentokband</a></p>
       <img src="@/assets/merch.JPG" alt="Decent OK shirts" class="section-img" />
     </section>
 
@@ -309,6 +318,10 @@ onUnmounted(() => {
   font-family: 'Bugaki', sans-serif;
   text-align: center;
   line-height: 1.1;
+}
+
+.font-fallback {
+  font-family: 'Montserrat', Arial, sans-serif;
 }
 
 .secondary {
