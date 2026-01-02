@@ -52,6 +52,7 @@ onUnmounted(() => {
     <section id="about" class="section">
       <div class="about-card">
         <img src="@/assets/decentok.jpg" alt="Nick Lombardo & The Decent Ok" class="hero-img" />
+        <h2 class="subheading">Connect With Us</h2>
         <div class="about-socials">
           <a href="https://open.spotify.com/artist/6oxEDcs24tSjh6tRka0oLv" target="_blank" rel="noopener"
             aria-label="Spotify">
@@ -293,6 +294,12 @@ onUnmounted(() => {
 .about-card .heading {
   font-size: 2.7rem;
   font-family: 'Bugaki', sans-serif;
+}
+
+.subheading {
+  font-size: 1.7rem;
+  font-family: 'Bugaki', sans-serif;
+  text-decoration: underline;
 }
 
 .hero-img {
