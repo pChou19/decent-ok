@@ -6,6 +6,8 @@ bottomImages:
     alt: Poster for Silk City show
   - src: milkboy.jpg
     alt: Poster for Milkboy show
+  - src: HolidayHangover.jpg
+    alt: Poster Holiday Show 12 Steps Down
 shows:
   - date: Aug 8, 2025
     title: Milkboy
