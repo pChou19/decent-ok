@@ -198,7 +198,7 @@ onUnmounted(() => {
 }
 
 .navbar {
-  background: #260202;
+  background: #2a2540;
   padding: 0;
   text-align: center;
   position: sticky;
