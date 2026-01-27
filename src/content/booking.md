@@ -1,5 +1,5 @@
 ---
-email: mr.lombardo04@gmail.com
+email: decentokband@gmail.com
 image: decentok_bw.jpg
 imageAlt: Black and white photo of band
 ---
