@@ -25,10 +25,10 @@ shows:
     title: 12 STEPS DOWN - Holiday Hangover Party
     ticketLink: ""
   - date: Feb. 20, 2026
-    title: Ruba Club - Philadelphia *FULL BAND*
+    title: Bob & Barbara's - Philadelphia *FULL BAND* - FREE SHOW
     ticketLink: ""
   - date: Feb. 20, 2026
-    title: Bob & Barbara's - Philadelphia *FULL BAND* - FREE SHOW
+    title: Ruba Club - Philadelphia *FULL BAND*
     ticketLink: ""
   - date: Bogey's
     title: Sewell, NJ *SOLO* (1/10, 2/28, 3/20, 4/18, 5/15) 6-9 PM
