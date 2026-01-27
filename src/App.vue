@@ -309,7 +309,7 @@ onUnmounted(() => {
 }
 
 .heading {
-  color: #7C4585;
+  color: #ffffff;
   margin-bottom: 1rem;
   font-size: 2.2rem;
   letter-spacing: 1px;
