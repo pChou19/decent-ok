@@ -1,6 +1,6 @@
 ---
-image: HolidayHangover.jpg
-imageAlt: Poster for upcoming show
+image: NICK LOMBARDO & THE DECENT OK.png
+imageAlt: Ruba Club Show - Ridge Runners Nadafinger Nick Lombardo & the Decent Ok February 20
 bottomImages:
   - src: DECENT_OK_Silk_city.jpg
     alt: Poster for Silk City show
