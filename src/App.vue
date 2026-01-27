@@ -1,5 +1,18 @@
 <script setup>
-import { ref, onMounted, onUnmounted } from 'vue';
+import { ref, onMounted, onUnmounted, computed } from 'vue';
+
+// Content imports
+import aboutData from '@/content/about.md'
+import showsData from '@/content/shows.md'
+import discographyData from '@/content/discography.md'
+import bookingData from '@/content/booking.md'
+import merchData from '@/content/merch.md'
+import epkData from '@/content/epk.md'
+
+// Process about content into paragraphs
+const aboutParagraphs = computed(() => {
+  return aboutData.content.split(/\n\n+/).filter(p => p.trim())
+})
 
 const isNavVisible = ref(true);
 let lastScrollY = window.scrollY;
@@ -51,7 +64,7 @@ onUnmounted(() => {
 
     <section id="about" class="section">
       <div class="about-card">
-        <img src="@/assets/decentok.jpg" alt="Nick Lombardo & The Decent Ok" class="hero-img" />
+        <img :src="`/images/${aboutData.frontmatter.heroImage}`" :alt="aboutData.frontmatter.heroImageAlt" class="hero-img" />
         <h2 class="subheading">Connect With Us</h2>
         <div class="about-socials">
           <a href="https://open.spotify.com/artist/6oxEDcs24tSjh6tRka0oLv" target="_blank" rel="noopener"
@@ -97,70 +110,49 @@ onUnmounted(() => {
             </svg>
           </a>
         </div>
-        <p class="about-text">
-          The Decent Ok is a Philadelphia-based indie rock band that packs an eclectic blend of rock, pop, and
-          indie anthems to their setlist. Founded in the fall of 2019 by Philly public school teacher and songwriter
-          Nick Lombardo, the band quickly grew into a powerhouse lineup featuring Josh Steingard on drums, Ethan Cain on
-          bass, and James Gaffield on lead guitar. With five genre-bending releases under their belt — Never Been
-          Better, Live at Light & Sound Studio, Vol. II, Still Falling Down, and their latest, Live Animal — The Decent
-          Ok has been making waves across the Philly music scene. Recorded at local studios like Miner Street
-          Recordings, TedAudio, Light & Sound Studio, and in their very own bedrooms, their songs have earned critical
-          acclaim and a growing fanbase. The Decent Ok's sound has reached the USA from coast to coast, having songs
-          recently featured on KEXP in Seattle and WXPN in Philadelphia.
-        </p>
-        <p class="about-text">
-          Whether they're tearing it up at a packed Philly club or playing a laid-back local spot, The Decent Ok rips an
-          authentic sound to every show. Check out the Decent Ok on your favorite streaming platform and be sure to
-          enjoy all of our music videos.
+        <p v-for="(paragraph, index) in aboutParagraphs" :key="index" class="about-text">
+          {{ paragraph }}
         </p>
       </div>
     </section>
 
     <section id="shows" class="section">
       <h2 class="heading">Upcoming Shows <span class="font-fallback">/</span> Events</h2>
-      <img src="@/assets/HolidayHangover.jpg" alt="Poster for Holidy Hangover show" class="section-img" />
+      <img :src="`/images/${showsData.frontmatter.image}`" :alt="showsData.frontmatter.imageAlt" class="section-img" />
       <ul class="shows-list">
-        <li><span class="secondary">Aug 8, 2025</span> - <a
-            href="https://www.tixr.com/groups/milkboy/events/nick-lombardo-the-decent-ok-lunison-pep-rally-142546"
-            target="_blank">Milkboy</a></li>
-        <li><span class="secondary">Nov 14, 2025</span> - Vinyl FULL BAND</li>
-        <li><span class="secondary">Nov 15, 2025</span> - <a
-            href="https://www.silkcityphilly.com/events/1639/nick-lombardo-and-the-decent-ok-two-rocks-rye-michael-james"
-            target="_blank">SILK CITY ****FULL BAND **** TICKETS ON SALE NOW!</a></li>
-        <li><span class="secondary">Dec. 21, 2025 </span> - <a href="https://www.youtube.com/watch?v=PpH2jrru4OE" target="_blank" rel="noopener">SOUTH DAKOTA MUSIC VIDEO RELEASE</a></li>
-        <li><span class="secondary">Jan. 17, 2026 </span> - 12 STEPS DOWN - Holiday Hangover Party</li>
-        <li><span class="secondary">Feb. 20, 2026 </span> - Ruba Club - Philadelphia *FULL BAND*</li>
-        <li><span class="secondary">Bogey's</span> - Sewell, NJ *SOLO* (1/10, 2/28, 3/20, 4/18, 5/15) 6-9 PM</li>
+        <li v-for="(show, index) in showsData.frontmatter.shows" :key="index">
+          <span class="secondary">{{ show.date }}</span> -
+          <a v-if="show.ticketLink" :href="show.ticketLink" target="_blank">{{ show.title }}</a>
+          <span v-else>{{ show.title }}</span>
+        </li>
       </ul>
-      <img src="@/assets/DECENT_OK_Silk_city.jpg" alt="Poster for Milkboy show" class="section-img" />
-      <img src="@/assets/milkboy.jpg" alt="Poster for Milkboy show" class="section-img" />
+      <img
+        v-for="(img, index) in showsData.frontmatter.bottomImages"
+        :key="'bottom-' + index"
+        :src="`/images/${img.src}`"
+        :alt="img.alt"
+        class="section-img"
+      />
     </section>
 
     <section id="booking" class="section">
       <h2 class="heading">Booking Info</h2>
-      <p>Email: <a href="mailto:mr.lombardo04@gmail.com" class="accent-link">mr.lombardo04@gmail.com</a></p>
-      <p>For press and booking inquiries, please reach out via email.</p>
-      <img src="@/assets/decentok_bw.jpeg" alt="Black and white photo of band" class="section-img" />
+      <p>Email: <a :href="`mailto:${bookingData.frontmatter.email}`" class="accent-link">{{ bookingData.frontmatter.email }}</a></p>
+      <p>{{ bookingData.content }}</p>
+      <img :src="`/images/${bookingData.frontmatter.image}`" :alt="bookingData.frontmatter.imageAlt" class="section-img" />
     </section>
 
     <section id="discography" class="section">
       <h2 class="heading">Discography</h2>
-      <img src="@/assets/OceanCountyCover.jpg" alt="Ocean County Cover Art" class="section-img" />
+      <img :src="`/images/${discographyData.frontmatter.topImage}`" :alt="discographyData.frontmatter.topImageAlt" class="section-img" />
       <ul class="discography-list">
-        <li><a href="https://open.spotify.com/album/5pbBGi9W69oUfFU3hlHPz2?si=M5_ShEQrSiucqvhMTlKMVQ" target="_blank"
-            rel="noopener"><b>Ocean County</b> (Single) - <span class="secondary">2025</span></a></li>
-        <li><a href="https://open.spotify.com/album/1oSTfBrPoashMFzwiZv2jZ?si=5a2b7805fd664c6e" target="_blank"
-            rel="noopener"><b>Live Animal</b> (Album) - <span class="secondary">2025</span></a></li>
-        <li><a href="https://open.spotify.com/album/2ylj7H0AQYYEDAMBiTYzT2?si=p4xcKfD5TPCMuX-EzNbYgw" target="_blank"
-            rel="noopener"><b>Still Falling Down</b> (EP) - <span class="secondary">2024</span></a></li>
-        <li><a href="https://open.spotify.com/album/6ZVf5cHb6CthjUn3zzTScQ?si=uTj54Cl6TaSv-kOCs9CvuA" target="_blank"
-            rel="noopener"><b>Vol. II</b> (EP) - <span class="secondary">2024</span></a></li>
-        <li><a href="https://open.spotify.com/album/22drRIhl8LpWyAiIUXXE8c?si=SedlMa8UTO-EvTsDoL48WQ" target="_blank"
-            rel="noopener"><b>Live at Light & Sound Studio</b> (EP) - <span class="secondary">2023</span></a></li>
-        <li><a href="https://open.spotify.com/album/59rxscN0lNlT4zWOB6R7ZZ?si=2MP08XnTQ9KmfaUsjwFjyw" target="_blank"
-            rel="noopener"><b>Never Been Better</b> (Album) - <span class="secondary">2021</span></a></li>
+        <li v-for="(album, index) in discographyData.frontmatter.albums" :key="index">
+          <a :href="album.spotifyLink" target="_blank" rel="noopener">
+            <b>{{ album.title }}</b> ({{ album.type }}) - <span class="secondary">{{ album.year }}</span>
+          </a>
+        </li>
       </ul>
-      <img src="@/assets/decentok_discog.JPG" alt="Band backstage" class="section-img" />
+      <img :src="`/images/${discographyData.frontmatter.bottomImage}`" :alt="discographyData.frontmatter.bottomImageAlt" class="section-img" />
     </section>
 
     <section id="videos" class="section">
@@ -177,21 +169,20 @@ onUnmounted(() => {
 
     <section id="merch" class="section">
       <h2 class="heading">Merch</h2>
-      <ul class="discography-list">
-        <li> Shirts (Black / Off White) S, M, L, XL</li>
-        <li> Stickers</li>
+      <ul class="merch-list">
+        <li v-for="(item, index) in merchData.frontmatter.items" :key="index">{{ item }}</li>
       </ul>
-      <br>
-      <p>Venmo: <a href="https://account.venmo.com/u/decentokband" target="_blank" rel="noopener">@decentokband</a></p>
-      <img src="@/assets/merch.JPG" alt="Decent OK shirts" class="section-img" />
+      <br />
+      <p>Venmo: <a :href="merchData.frontmatter.venmoLink" target="_blank" class="accent-link">{{ merchData.frontmatter.venmo }}</a></p>
+      <img :src="`/images/${merchData.frontmatter.image}`" :alt="merchData.frontmatter.imageAlt" class="section-img" />
     </section>
 
     <section id="epk" class="section">
       <h2 class="heading">EPK</h2>
       <p class="epk-text">
-        <a href="/EPK - Nick Lombardo & the Decent Ok.pdf" class="accent-link" download>Download our EPK</a>
+        <a :href="epkData.frontmatter.pdfPath" class="accent-link" download>{{ epkData.frontmatter.downloadText }}</a>
       </p>
-      <img src="@/assets/decentok2.JPG" alt="Band on stage" class="section-img" />
+      <img :src="`/images/${epkData.frontmatter.image}`" :alt="epkData.frontmatter.imageAlt" class="section-img" />
     </section>
   </div>
 </template>
@@ -360,7 +351,8 @@ onUnmounted(() => {
 }
 
 .shows-list,
-.discography-list {
+.discography-list,
+.merch-list {
   font-size: 1.1rem;
   padding-left: 1.5rem;
 }
