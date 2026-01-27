@@ -24,7 +24,7 @@ shows:
   - date: Jan. 17, 2026
     title: 12 STEPS DOWN - Holiday Hangover Party
     ticketLink: ""
-  - date: Feb. 20, 2026
+  - date: Feb. 3rd, 2026
     title: Bob & Barbara's - Philadelphia *FULL BAND* - FREE SHOW
     ticketLink: ""
   - date: Feb. 20, 2026
