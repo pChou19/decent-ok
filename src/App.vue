@@ -46,6 +46,26 @@ onUnmounted(() => {
 });
 </script>
 
+<style>
+/* Color variables - edit these to change the site's color scheme */
+:root {
+  /* Background color */
+  --color-bg: #191626;
+  /* Navbar background color */
+  --color-navbar: #2a2540;
+  /* Section background color */
+  --color-card: #3c365c;
+  /* Section heading text color */
+  --color-heading: #ffffff;
+  /* Text color */
+  --color-text: #ffffff;
+  /* Links and navbar text color */
+  --color-accent: #f8B55f;
+  /* Links on hover color */
+  --color-secondary: #c95792;
+}
+</style>
+
 <template>
   <div id="app" class="main-bg">
     <nav class="navbar" :class="{ 'navbar-hidden': !isNavVisible }">
@@ -191,14 +211,14 @@ onUnmounted(() => {
 @import url('https://fonts.cdnfonts.com/css/bugaki');
 
 .main-bg {
-  background: #191626;
+  background: var(--color-bg);
   min-height: 100vh;
-  color: #fff;
+  color: var(--color-text);
   font-family: 'Montserrat', Arial, sans-serif;
 }
 
 .navbar {
-  background: #2a2540;
+  background: var(--color-navbar);
   padding: 0;
   text-align: center;
   position: sticky;
@@ -230,7 +250,7 @@ onUnmounted(() => {
 }
 
 .navbar a {
-  color: #F8B55F;
+  color: var(--color-accent);
   text-decoration: none;
   font-weight: bold;
   font-size: 1.1rem;
@@ -244,20 +264,21 @@ onUnmounted(() => {
 }
 
 .navbar a:hover {
-  color: #C95792;
+  color: var(--color-secondary);
   background: rgba(249, 181, 95, 0.08);
 }
 
-.section {
+.section,
+.about-card {
   max-width: 900px;
   margin: 1rem auto;
   padding: 1rem;
-  background: rgba(60, 54, 92, 0.95);
+  background: var(--color-card);
   border-radius: 1.5rem;
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
 }
 
-/* Center the About card and make it larger */
+/* Override for about section wrapper */
 #about.section {
   display: flex;
   flex-direction: column;
@@ -270,13 +291,7 @@ onUnmounted(() => {
 }
 
 .about-card {
-  background: #3c365cf2;
-  border-radius: 1.5rem;
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
-  max-width: 900px;
   width: 100%;
-  margin: 0 auto;
-  padding: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -309,7 +324,7 @@ onUnmounted(() => {
 }
 
 .heading {
-  color: #ffffff;
+  color: var(--color-heading);
   margin-bottom: 1rem;
   font-size: 2.2rem;
   letter-spacing: 1px;
@@ -323,17 +338,23 @@ onUnmounted(() => {
 }
 
 .secondary {
-  color: #C95792;
+  color: var(--color-secondary);
 }
 
 .accent {
-  color: #F8B55F;
+  color: var(--color-accent);
   font-weight: bold;
 }
 
 .accent-link {
-  color: #F8B55F;
+  color: var(--color-accent);
   text-decoration: underline;
+}
+
+/* Style all links in content sections */
+.section a,
+.about-card a {
+  color: var(--color-accent);
 }
 
 .section-img {
