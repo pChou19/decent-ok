@@ -31,6 +31,9 @@ shows:
     title: Ruba Club - Philadelphia *FULL BAND*
     ticketLink: ""
   - date: Bogey's
-    title: Sewell, NJ *SOLO* (1/10, 2/28, 3/20, 4/18, 5/15) 6-9 PM
+    title: Sewell, NJ *SOLO* (1/10, 2/28) 6-9 PM
+    ticketLink: ""
+  - date: Tiny Couch - "Songs That Changed Your Life"
+    title: Doylestown, PA *DUO* (3/26) 7:30-10 PM
     ticketLink: ""
 ---
