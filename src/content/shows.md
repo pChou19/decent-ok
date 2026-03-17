@@ -33,7 +33,7 @@ shows:
   - date: Bogey's
     title: Sewell, NJ *SOLO* (1/10, 2/28) 6-9 PM
     ticketLink: ""
-  - date: Tiny Couch - "Songs That Changed Your Life"
-    title: Doylestown, PA *DUO* (3/26) 7:30-10 PM
-    ticketLink: ""
+  - date: March 26th
+    title: Tiny Couch - "Songs That Changed Your Life" Doylestown, PA *DUO* (3/26) 7:30-10 PM
+    ticketLink: "https://www.eventbrite.com/e/songs-that-changed-your-life-a-benefit-for-chop-tickets-1984410777053?aff=erelexpmlt"
 ---
