@@ -8,6 +8,8 @@ bottomImages:
     alt: Poster for Milkboy show
   - src: HolidayHangover.jpg
     alt: Poster Holiday Show 12 Steps Down
+  - src: little flower can solo.png
+    alt: little flower release
 shows:
   - date: Aug 8, 2025
     title: Milkboy
