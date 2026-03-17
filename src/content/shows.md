@@ -34,9 +34,21 @@ shows:
     title: Sewell, NJ *SOLO* (1/10, 2/28) 6-9 PM
     ticketLink: ""
   - date: March. 20, 2026
-    title: SINGLE RELEAST - LITTLE FLOWER
+    title: SINGLE RELEASE - LITTLE FLOWER
     ticketLink: "https://distrokid.com/hyperfollow/nicklombardoandthedecentok/little-flower?ref=release"
   - date: March 26th
     title: Tiny Couch - "Songs That Changed Your Life" Doylestown, PA *DUO* (3/26) 7:30-10 PM
     ticketLink: "https://www.eventbrite.com/e/songs-that-changed-your-life-a-benefit-for-chop-tickets-1984410777053?aff=erelexpmlt"
+  - date: April. 10, 2026
+    title: Dawson Street Pub *Duo*
+    ticketLink: ""
+  - date: May. 8th, 2026
+    title: The Yard Benefit Show - Doylestown *FULL BAND*
+    ticketLink: ""
+  - date: July. 10, 2026
+    title: 118 North - Wayne, PA *FULL BAND* w/ Kikashima + Tim Hein
+    ticketLink: ""
+  - date: Aug. 8th, 2026
+    title: Silk City - Philadelphia *FULL BAND* w/ Kat Rivers & the Second Sight + The Band Joe
+    ticketLink: ""
 ---
