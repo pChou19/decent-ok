@@ -1,6 +1,6 @@
 ---
 downloadText: Download our EPK
-pdfPath: /EPK - Nick Lombardo & the Decent Ok.pdf
+pdfPath: public/DECENT OK BAND EPK MARCH 26.pdf
 image: decentok2.jpg
 imageAlt: Band on stage
 ---
