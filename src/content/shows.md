@@ -1,5 +1,5 @@
 ---
-image: public/images/Music - 4.PNG
+image: images/Music - 4.PNG
 imageAlt: Little Big Planet
 bottomImages:
   - src: DECENT_OK_Silk_city.jpg
