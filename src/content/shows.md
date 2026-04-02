@@ -16,7 +16,7 @@ bottomImages:
     alt: little flower release
 shows:
   - date: Aug 8, 2025
-    title: Milkboy
+    title: Milkboy *FULL BAND*
     ticketLink: https://www.tixr.com/groups/milkboy/events/nick-lombardo-the-decent-ok-lunison-pep-rally-142546
   - date: Nov 14, 2025
     title: Vinyl FULL BAND
