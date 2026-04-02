@@ -1,6 +1,6 @@
 ---
-image: NICK LOMBARDO & THE DECENT OK.png
-imageAlt: Ruba Club Show - Ridge Runners Nadafinger Nick Lombardo & the Decent Ok February 20
+image: Music - 4.PNG
+imageAlt: Little Big Planet
 bottomImages:
   - src: DECENT_OK_Silk_city.jpg
     alt: Poster for Silk City show
