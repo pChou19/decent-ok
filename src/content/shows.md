@@ -12,7 +12,6 @@ bottomImages:
     alt: Ruba Club
   - src: HolidayHangover.jpg
     alt: Poster Holiday Show 12 Steps Down
-SHOWS
 shows:
   - date: Aug 8, 2025
     title: Milkboy *FULL BAND*
