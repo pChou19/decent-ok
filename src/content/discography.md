@@ -8,6 +8,8 @@ albums:
     type: Single
     year: "2026"
     spotifyLink: https://open.spotify.com/track/1ao0OW0Kt8XKAwtvHhVepQ?si=e8aa49d29d044c50
+  - src: HolidayHangover.jpg
+    alt: Poster Holiday Show 12 Steps Down
   - title: Ocean County
     type: Single
     year: "2025"
