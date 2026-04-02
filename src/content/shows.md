@@ -8,6 +8,8 @@ bottomImages:
     alt: Poster for Silk City show
   - src: milkboy.jpg
     alt: Poster for Milkboy show
+  - src: NICK LOMBARDO & THE DECENT OK.png
+    alt: Ruba Club
   - src: HolidayHangover.jpg
     alt: Poster Holiday Show 12 Steps Down
   - src: little flower can solo.png
