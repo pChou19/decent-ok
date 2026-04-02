@@ -4,6 +4,10 @@ topImageAlt: Ocean County Cover Art
 bottomImage: decentok_discog.jpg
 bottomImageAlt: Band backstage
 albums:
+  - title: Little Flower
+    type: Single
+    year: "2026"
+    spotifyLink: https://open.spotify.com/track/1ao0OW0Kt8XKAwtvHhVepQ?si=e8aa49d29d044c50
   - title: Ocean County
     type: Single
     year: "2025"
