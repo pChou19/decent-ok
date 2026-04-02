@@ -44,6 +44,9 @@ shows:
   - date: April. 10, 2026
     title: Dawson Street Pub *Duo*
     ticketLink: ""
+  - date: April. 18, 2026
+    title: Little Big Planet *Full Band*
+    ticketLink: ""
   - date: May. 8th, 2026
     title: The Yard Benefit Show - Doylestown *FULL BAND*
     ticketLink: ""
