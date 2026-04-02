@@ -7,7 +7,7 @@ albums:
   - title: Ocean County
     type: Single
     year: "2025"
-    spotifyLink: https://open.spotify.com/album/5pbBGi9W69oUfFU3hlHPz2?si=M5_ShEQrSiucqvhMTlKMVQ
+    spotifyLink: https://open.spotify.com/track/75u9IW0LiX0M55hXB6fwVF?si=49b26d47787e4b84
   - title: Live Animal
     type: Album
     year: "2025"
