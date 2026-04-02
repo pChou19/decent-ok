@@ -3,9 +3,9 @@ topImage: OceanCountyCover.jpg
 topImageAlt: Ocean County Cover Art
 bottomImage: decentok_discog.jpg
 bottomImageAlt: Band backstage
+- src: little flower cover v1.png
+  alt: Little Flower Cover
 albums:
-  - src: little flower cover v1.png
-    alt: Little Flower Cover
   - title: Little Flower
     type: Single
     year: "2026"
