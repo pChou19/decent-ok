@@ -4,7 +4,7 @@ topImageAlt: Ocean County Cover Art
 bottomImage: decentok_discog.jpg
 bottomImageAlt: Band backstage
 albums:
-  - title: Ocean Countty
+  - title: Ocean County
     type: Single
     year: "2025"
     spotifyLink: https://open.spotify.com/album/5pbBGi9W69oUfFU3hlHPz2?si=M5_ShEQrSiucqvhMTlKMVQ
