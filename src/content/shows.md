@@ -4,6 +4,8 @@ imageAlt: Little Flower Can
 bottomImages:
   - src: Music - 4.jpeg
     alt: Little Big Planet
+  - src: little flower cover v1.png
+    alt: Little Flower Cover
   - src: DECENT_OK_Silk_city.jpg
     alt: Poster for Silk City show
   - src: milkboy.jpg
