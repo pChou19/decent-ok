@@ -2,7 +2,7 @@
 image: little flower can solo.png
 imageAlt: Little Flower Can
 bottomImages:
-  - src: images/Music - 4.PNG
+  - src: Music - 4.PNG
     alt: Little Big Planet
   - src: DECENT_OK_Silk_city.jpg
     alt: Poster for Silk City show
