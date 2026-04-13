@@ -52,7 +52,7 @@ onUnmounted(() => {
   /* Background color */
   --color-bg: #67bed9;
   /* Navbar background color */
-  --color-navbar: #2a2540;
+  --color-navbar: #d3cbf2;
   /* Section background color */
   --color-card: #000000;
   /* Section heading text color */
