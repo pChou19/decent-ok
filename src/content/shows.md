@@ -1,6 +1,6 @@
 ---
-image: little flower can solo.png
-imageAlt: Little Flower Can
+image: Banner 118 N.jpg
+imageAlt: 118 N Show
 bottomImages:
   - src: Music - 4.jpeg
     alt: Little Big Planet
