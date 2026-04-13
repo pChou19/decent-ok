@@ -50,7 +50,7 @@ onUnmounted(() => {
 /* Color variables - edit these to change the site's color scheme */
 :root {
   /* Background color */
-  --color-bg: #f02b66;
+  --color-bg: #67bed9;
   /* Navbar background color */
   --color-navbar: #2a2540;
   /* Section background color */
