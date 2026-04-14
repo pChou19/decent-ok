@@ -56,7 +56,7 @@ shows:
     ticketLink: ""
   - date: July. 10, 2026
     title: 118 North - Wayne, PA *FULL BAND* w/ Kikashima + Tim Hein
-    ticketLink: ""
+    ticketLink: "https://www.tixr.com/groups/118north/events/nick-lombardo-the-decent-ok-kikashima-185065"
   - date: Aug. 28th, 2026
     title: Silk City - Philadelphia *FULL BAND* w/ Kat Rivers & the Second Sight + The Band Joe
     ticketLink: ""
