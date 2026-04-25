@@ -53,11 +53,29 @@ shows:
     ticketLink: ""
   - date: May. 8th, 2026
     title: The Yard Benefit Show - Doylestown *FULL BAND*
+    ticketLink: "https://theyardambler.com/products/advance-ticket-the-yard-presents-tiny-couch-concert"
+  - date: May. 31, 2026
+    title: Franky Bradley's *Featured Set - The Remy Gold Show*
+    ticketLink: ""
+  - date: June. 20, 2026
+    title: Ship Bottom Brewery, NJ *Duo*
     ticketLink: ""
   - date: July. 10, 2026
     title: 118 North - Wayne, PA *FULL BAND* w/ Kikashima + Tim Hein
     ticketLink: "https://www.tixr.com/groups/118north/events/nick-lombardo-the-decent-ok-kikashima-185065"
+  - date: July. 17, 2026
+    title: Hard Rock - Philadelphia - Sounds For Peace & Harmony - *Full Band - Featured Set*
+    ticketLink: ""
+  - date: August. 6, 2026
+    title: Ship Bottom Brewery, NJ *Duo*
+    ticketLink: ""
+  - date: August. 8, 2026
+    title: Ship Bottom Brewery, NJ *Duo*
+    ticketLink: ""
   - date: Aug. 28th, 2026
     title: Silk City - Philadelphia *FULL BAND* w/ Kat Rivers & the Second Sight + The Band Joe
+    ticketLink: ""
+  - date: September. 12, 2026
+    title: Ship Bottom Brewery, NJ *Duo*
     ticketLink: ""
 ---
