@@ -1,7 +1,9 @@
 ---
-image: 118 n Pic.jpg
-imageAlt: 118 N Show
+image: Updated Schedule.png
+imageAlt: Schedule
 bottomImages:
+  - src: 118 n Pic.jpg
+    alt: 118 N Show
   - src: Music - 4.jpeg
     alt: Little Big Planet
   - src: little flower cover v1.png
