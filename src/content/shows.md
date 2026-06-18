@@ -74,9 +74,6 @@ shows:
   - date: August. 8, 2026
     title: Ship Bottom Brewery, NJ *Duo*
     ticketLink: ""
-  - date: August. 13, 2026
-    title: Harrigan's Pub, Hatboro *Solo* 6-9pm
-    ticketLink: ""
   - date: August. 27, 2026
     title: Harrigan's Pub, Hatboro *Solo* 6-9pm
     ticketLink: ""
