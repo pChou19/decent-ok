@@ -46,26 +46,6 @@ onUnmounted(() => {
 });
 </script>
 
-<style>
-/* Color variables - edit these to change the site's color scheme */
-:root {
-  /* Background color */
-  --color-bg: #67bed9;
-  /* Navbar background color */
-  --color-navbar: #c9040b;
-  /* Section background color */
-  --color-card: #000000;
-  /* Section heading text color */
-  --color-heading: #ffffff;
-  /* Text color */
-  --color-text: #ffffff;
-  /* Links and navbar text color */
-  --color-accent: #f8B55f;
-  /* Links on hover color */
-  --color-secondary: #c95792;
-}
-</style>
-
 <template>
   <div id="app" class="main-bg">
     <nav class="navbar" :class="{ 'navbar-hidden': !isNavVisible }">
@@ -146,6 +126,9 @@ onUnmounted(() => {
           <span v-else>{{ show.title }}</span>
         </li>
       </ul>
+      <p class="past-shows-link">
+        <a href="/past-shows.html">View past shows &rarr;</a>
+      </p>
       <img
         v-for="(img, index) in showsData.frontmatter.bottomImages"
         :key="'bottom-' + index"
@@ -376,6 +359,18 @@ onUnmounted(() => {
 .merch-list {
   font-size: 1.1rem;
   padding-left: 1.5rem;
+}
+
+.past-shows-link {
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 1rem 0;
+}
+
+.past-shows-link a {
+  color: var(--color-accent);
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 .videos {

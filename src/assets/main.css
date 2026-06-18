@@ -1,5 +1,23 @@
 @import './base.css';
 
+/* Color variables - edit these to change the site's color scheme */
+:root {
+  /* Background color */
+  --color-bg: #67bed9;
+  /* Navbar background color */
+  --color-navbar: #c9040b;
+  /* Section background color */
+  --color-card: #000000;
+  /* Section heading text color */
+  --color-heading: #ffffff;
+  /* Text color */
+  --color-text: #ffffff;
+  /* Links and navbar text color */
+  --color-accent: #f8B55f;
+  /* Links on hover color */
+  --color-secondary: #c95792;
+}
+
 #app {
   max-width: 1280px;
   margin: 0 auto;
