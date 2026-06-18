@@ -47,6 +47,9 @@ shows:
   - date: July. 17, 2026
     title: Hard Rock - Philadelphia - Sounds For Peace & Harmony - *FREE SHOW - Full Band - Featured Set*
     ticketLink: ""
+  - date: July. 31st, 2026
+    title: FLIP FLOPZ - Wildwood, NJ *DUO*
+    ticketLink: ""
   - date: August. 6, 2026
     title: Ship Bottom Brewery, NJ *Duo*
     ticketLink: ""
