@@ -19,16 +19,13 @@ shows:
   - date: July 17, 2026
     title: Hard Rock - Philadelphia - Sounds For Peace & Harmony - *FREE SHOW - Full Band - Featured Set*
     ticketLink: ""
-  - date: July 17, 2026
-    title: The Fire - Philadelphia - Full Band - Featured Set *11pm ~
-    ticketLink: ""
   - date: July 19, 2026
     title: Harrigan's Pub, Hatboro *Duo* 4-8pm
     ticketLink: ""
   - date: July 24th, 2026
     title: Attic Brewery - Philadelphia, PA *DUO* 6-9pm
     ticketLink: ""
-  - date: July 25th, 2026
+  - date: July 25th, 2026 - POSTPONED - NEW DATE ANNOUNCED SOON
     title: Artifact Brewing - Hatboro, PA *FULL BAND SHOW* 8pm - SPONSORED BY TINY COUCH
     ticketLink: ""
   - date: July 31st, 2026
