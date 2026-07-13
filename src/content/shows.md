@@ -2,6 +2,8 @@
 image: Updated Schedule.png
 imageAlt: Schedule
 bottomImages:
+  - src: Silk Updated Poster.png
+    alt: Silk City
   - src: Milkboy Press Photo.jpg
     alt: Milkboy
   - src: 118 n Pic.jpg
