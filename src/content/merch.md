@@ -4,6 +4,6 @@ items:
   - Stickers
 venmo: "@decentokband"
 venmoLink: https://account.venmo.com/u/decentokband
-image: merch.JPG
+image: IMG_6613.heic
 imageAlt: Decent OK shirts
 ---
