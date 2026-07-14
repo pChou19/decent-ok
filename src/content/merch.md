@@ -7,5 +7,5 @@ venmoLink: https://account.venmo.com/u/decentokband
 image: IMG_6613.jpg
 imageAlt: Decent OK shirts
 image: IMG_4159.jpg
-imageAlt: Flower Sticker
+imageAlt: Flower
 ---
