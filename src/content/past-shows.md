@@ -12,5 +12,19 @@ bottomImages:
     alt: Ruba Club
   - src: HolidayHangover.jpg
     alt: Poster Holiday Show 12 Steps Down
+  - src: Dolphin.JPG
+    alt: Dolpin
+  - src: KFN.PNG
+    alt: Kung Fu
+  - src: Winterfest.PNG
+    alt: WinterWXPN
+  - src: PUckerup.jpg
+    alt: Puckerup
+  - src: Spice Rack.JPG
+    alt: Penn State
+  - src: Warehouse.PNG
+    alt: Warehouse
+  - src: Fat Lady.JPEG
+    alt: Fat Lady
 shows:
 ---
