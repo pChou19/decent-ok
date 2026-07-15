@@ -14,6 +14,8 @@ bottomImages:
     alt: Poster Holiday Show 12 Steps Down
   - src: Dolphin.JPG
     alt: Dolpin
+  - src: Landon Conrath art ig.JPEG
+    alt: Landon Conrath
   - src: KFN.PNG
     alt: Kung Fu
   - src: Winterfest.PNG
@@ -23,7 +25,7 @@ bottomImages:
   - src: Spice Rack.JPG
     alt: Penn State
   - src: VINLY - 2.PNG
-    alt: Fat Lady
+    alt: Vinyl
   - src: Warehouse.PNG
     alt: Warehouse
   - src: Fat Lady.JPEG
