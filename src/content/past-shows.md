@@ -22,6 +22,8 @@ bottomImages:
     alt: Puckerup
   - src: Spice Rack.JPG
     alt: Penn State
+  - src: VINLY - 2.PNG
+    alt: Fat Lady
   - src: Warehouse.PNG
     alt: Warehouse
   - src: Fat Lady.JPEG
