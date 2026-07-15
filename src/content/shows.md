@@ -6,8 +6,6 @@ bottomImages:
     alt: Silk City
   - src: Milkboy Press Photo.jpg
     alt: Milkboy
-  - src: 118 n Pic.jpg
-    alt: 118 N Show
   - src: little flower cover v1.png
     alt: Little Flower Cover
 shows:
