@@ -42,5 +42,7 @@ bottomImages:
     alt: Dawson
   - src: subsellar.JPG
     alt: subsellar
+  - src: Khyber.PNG
+    alt: Khyber
 shows:
 ---
