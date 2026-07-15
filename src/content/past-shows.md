@@ -32,5 +32,13 @@ bottomImages:
     alt: Warehouse
   - src: Fat Lady.JPEG
     alt: Fat Lady
+  - src: Dobbs.PNG
+    alt: Dobbs
+  - src: citywinery.JPG
+    alt: citywinery
+  - src: dawsonst.PNG
+    alt: Dawson
+  - src: subsellar.JPG
+    alt: subsellar
 shows:
 ---
