@@ -54,6 +54,9 @@ shows:
   - date: September. 12, 2026
     title: Ship Bottom Brewery, NJ *Duo*
     ticketLink: ""
+  - date: September. 18, 2026
+    title: Kelly Center, Havertown *Duo Show w/ Jackson Cole on Tour*
+    ticketLink: "https://events.ticketleap.com/tickets/kellycenter/09182026"
   - date: October. 23, 2026
     title: Milkboy, PA *Full Band* w/ Koser + Rasan in the Heyday
     ticketLink: "https://www.tixr.com/groups/milkboy/events/nick-lombardo-the-decent-ok-198118"
