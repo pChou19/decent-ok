@@ -51,13 +51,19 @@ shows:
   - date: August 28th, 2026
     title: Silk City - Philadelphia *FULL BAND* w/ Kat Rivers & the Second Sight + Nervous Nikki and the Chill Pills
     ticketLink: "https://www.etix.com/ticket/p/36702823/nick-lombardo-the-decent-ok-nervous-nikki-and-the-chill-pills-kat-rivers-and-the-second-sight-philadelphia-silk-city"
-  - date: September. 12, 2026
+  - date: August. 29th, 2026
+    title: South Street Festival, Philadelphia *Full Band* 6-7pm
+    ticketLink: "https://byoc-south-street.netlify.app/"
+  - date: September. 12th, 2026
     title: Ship Bottom Brewery, NJ *Duo*
     ticketLink: ""
-  - date: September. 18, 2026
+  - date: September. 18th, 2026
     title: Kelly Center, Havertown *Duo Show w/ Jackson Cole on Tour*
     ticketLink: "https://events.ticketleap.com/tickets/kellycenter/09182026"
-  - date: October. 23, 2026
+  - date: October. 3rd, 2026
+    title: Block Party, South Philadelphia *Duo Show* 1pm
+    ticketLink: "" 
+  - date: October. 23rd, 2026
     title: Milkboy, PA *Full Band* w/ Koser + Rasan in the Heyday
     ticketLink: "https://www.tixr.com/groups/milkboy/events/nick-lombardo-the-decent-ok-198118"
 ---
