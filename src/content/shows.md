@@ -64,7 +64,13 @@ shows:
     ticketLink: "https://events.ticketleap.com/tickets/kellycenter/09182026"
   - date: October. 3rd, 2026
     title: Block Party, South Philadelphia *Duo Show* 1pm
-    ticketLink: "" 
+    ticketLink: ""
+  - date: October. 3rd, 2026
+    title: Canalside, Manayunk *Duo Show* 7pm
+    ticketLink: ""
+  - date: October. 8th, 2026
+    title: Fitz on 4th, Philadelphia *Duo Show* 6pm
+    ticketLink: ""
   - date: October. 23rd, 2026
     title: Milkboy, PA *Full Band* w/ Koser + Rasan in the Heyday
     ticketLink: "https://www.tixr.com/groups/milkboy/events/nick-lombardo-the-decent-ok-198118"
