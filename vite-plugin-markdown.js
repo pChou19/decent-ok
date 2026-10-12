@@ -1,4 +1,6 @@
-import matter from 'gray-matter'
+import { parse } from 'yaml'
+
+const FRONTMATTER_RE = /^---\r?\n([\s\S]*?)\r?\n---\r?\n?/
 
 export default function markdownPlugin() {
   return {
@@ -6,7 +8,9 @@ export default function markdownPlugin() {
     transform(code, id) {
       if (!id.endsWith('.md')) return null
 
-      const { data, content } = matter(code)
+      const match = code.match(FRONTMATTER_RE)
+      const data = match ? (parse(match[1]) ?? {}) : {}
+      const content = match ? code.slice(match[0].length) : code
 
       return {
         code: `export const frontmatter = ${JSON.stringify(data)};
