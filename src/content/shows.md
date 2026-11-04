@@ -2,12 +2,6 @@
 image: Nick & The Decent Ok-124.jpg
 imageAlt: Band Pic
 bottomImages:
-  - src: Silk Updated Poster.png
-    alt: Silk City
-  - src: Milkboy Press Photo.jpg
-    alt: Milkboy
-  - src: 123_1.JPEG
-    alt: SouthSt
   - src: little flower cover v1.png
     alt: Little Flower Cover
 shows:
