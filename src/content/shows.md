@@ -1,6 +1,6 @@
 ---
-image: Updated Schedule.png
-imageAlt: Schedule
+image: Nick & The Decent Ok-124.jpg
+imageAlt: Band Pic
 bottomImages:
   - src: Silk Updated Poster.png
     alt: Silk City
