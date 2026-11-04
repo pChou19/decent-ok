@@ -2,6 +2,8 @@
 image: Nick & The Decent Ok-124.jpg
 imageAlt: Band Pic
 bottomImages:
+  - src: NICK LOMBARDO & THE DECENT OK (1).png
+    alt: BREAKING SOUND
   - src: little flower cover v1.png
     alt: Little Flower Cover
 shows:
