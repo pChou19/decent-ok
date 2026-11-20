@@ -2,8 +2,12 @@
 image:
 imageAlt:
 bottomImages:
+  - src: Milkboy Press Photo.jpg
+    alt: Milkboy 26
   - src: 118 n Pic.jpg
     alt: 118 N Show
+  - src: 123_1.JPEG
+    alt: South St.
   - src: Music - 4.jpeg
     alt: Little Big Planet
   - src: DECENT_OK_Silk_city.jpg
