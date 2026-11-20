@@ -28,7 +28,7 @@ bottomImages:
     alt: Kung Fu
   - src: Winterfest.PNG
     alt: WinterWXPN
-  - src: PUckerup.jpg
+  - src: PUckerup.JPG
     alt: Puckerup
   - src: Spice Rack.JPG
     alt: Penn State
