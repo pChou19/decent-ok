@@ -6,6 +6,8 @@ bottomImages:
     alt: Milkboy 26
   - src: 118 n Pic.jpg
     alt: 118 N Show
+  - src: NICK LOMBARDO & THE DECENT OK (1).png
+    alt: Breaking Sound
   - src: 123_1.JPEG
     alt: South St.
   - src: Music - 4.jpeg
