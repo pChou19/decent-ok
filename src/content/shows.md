@@ -76,6 +76,9 @@ shows:
   - date: November. 22nd, 2026
     title: Breaking Sound @ Midnight & the Wicked, Philadelphia PA *Duo Show*
     ticketLink: "https://dice.fm/event/7d9vm7-breaking-sound-nyc-at-midnight-the-wicked-1122-22nd-nov-midnight-the-wicked-philadelphia-tickets?click_id=XDZ-ZjBPRymnE6QUg-BxHg&pid=530cb286&_branch_match_id=1532066052484458576&utm_medium=partners_api&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9ZLyUxO1UvL1Y80MTM2SjY2N082M7dPzslMzo7PTLGNcInSjcpyCgiqzM1zNQsMTdd1qvBIVyvITLE1NTZITjKyMFOrK0pNSy0qysxLj08qyi8vTi2ydc4oys9NBQBzuHfWaAAAAA%3D%3D"
+  - date: May. 16th, 2027
+    title: Italian Market Festival - Philadelphia - 9th & Washington *Free Show* 3-5pm
+    ticketLink: ""
 
     
 
